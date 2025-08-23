@@ -1,0 +1,30 @@
+.word {
+  background-color: lightblue;
+  color: #212529;
+  padding: 0 0.2em;
+  border-radius: 0.15em;
+}
+
+.word-active {
+  background-color: lightseagreen;
+}
+
+.word-error {
+  background-color: lightcoral;
+}
+
+.word-correct {
+  background-color: transparent;
+  color: #198754;
+}
+
+.word-incorrect {
+  background-color: transparent;
+  color: #dc3545;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529;
+  background-color: white
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
